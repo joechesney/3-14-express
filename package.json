@@ -1,0 +1,24 @@
+{
+  "name": "3-14-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joechesney/3-14-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joechesney/3-14-express/issues"
+  },
+  "homepage": "https://github.com/joechesney/3-14-express#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
