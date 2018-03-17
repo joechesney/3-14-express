@@ -58,8 +58,8 @@ app.get("/", (req, res)=>{
     res.send("hello user!");
   });
   // app.post('/', cb);
-  app.listen(8080, ()=>{
-    console.log('listening on 8080');
+  app.listen(8082, ()=>{
+    console.log('listening on 8082');
   });
   app.use((error, req, res, next)=>{
     console.log('this is a middleware');
